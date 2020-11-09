@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\ripple">
+      <UniqueIdentifier>{418af6f7-f4f1-4ceb-97b2-4cd14abfcf04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ripple">
+      <UniqueIdentifier>{aff14d30-ba25-4af2-be33-2adc29523cdd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EllipalXrpAddress.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EllipalXrpAddressDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bip39.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bip39_english.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="memzero.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hexutils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base58.h">
+      <Filter>头文件\ripple</Filter>
+    </ClInclude>
+    <ClInclude Include="bignum.h">
+      <Filter>头文件\ripple</Filter>
+    </ClInclude>
+    <ClInclude Include="aesCrypter.h">
+      <Filter>头文件\ripple</Filter>
+    </ClInclude>
+    <ClInclude Include="BitcoinUtil.h">
+      <Filter>头文件\ripple</Filter>
+    </ClInclude>
+    <ClInclude Include="ByteOrder.h">
+      <Filter>头文件\ripple</Filter>
+    </ClInclude>
+    <ClInclude Include="key.h">
+      <Filter>头文件\ripple</Filter>
+    </ClInclude>
+    <ClInclude Include="RippleAddress.h">
+      <Filter>头文件\ripple</Filter>
+    </ClInclude>
+    <ClInclude Include="ripple.h">
+      <Filter>头文件\ripple</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>头文件\ripple</Filter>
+    </ClInclude>
+    <ClInclude Include="uint256.h">
+      <Filter>头文件\ripple</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>头文件\ripple</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EllipalXrpAddress.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EllipalXrpAddressDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bip39.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="memzero.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hexutils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="aesCrypter.cpp">
+      <Filter>源文件\ripple</Filter>
+    </ClCompile>
+    <ClCompile Include="ByteOrder.cpp">
+      <Filter>源文件\ripple</Filter>
+    </ClCompile>
+    <ClCompile Include="sign.cpp">
+      <Filter>源文件\ripple</Filter>
+    </ClCompile>
+    <ClCompile Include="ripple.cpp">
+      <Filter>源文件\ripple</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EllipalXrpAddress.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\EllipalXrpAddress.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\EllipalXrpAddress.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
